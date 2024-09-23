@@ -1,13 +1,11 @@
 // src/App.js
 import React from 'react';
 import { 
-  Header, 
   Skill,
-  IntroductionF
+  Introduction
 } from './components';
 import { 
-  Navbar, 
-  Footer 
+  Navbar
 } from './containers';
 import './App.css';  // Add custom styling if necessary
 
