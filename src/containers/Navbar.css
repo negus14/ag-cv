@@ -3,12 +3,7 @@
     justify-content: space-between;
     align-items: center;
     color: #fff;
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 25px;
-    text-transform: capitalize;
-    margin: 0 1rem;
+    margin: 2rem 2rem;
     cursor: pointer;
     padding: 2rem 6rem;
 }
@@ -22,5 +17,5 @@
 
 .navbar a :hover
 {
-    transform: scale(1.2); /* Slightly enlarge the icon on hover */
+    transform: scale(1.1); /* Slightly enlarge the icon on hover */
 }

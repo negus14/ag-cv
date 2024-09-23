@@ -10,6 +10,10 @@ import python from '../../src/assets/python.png';
 import cpp from '../../src/assets/cpp.png';
 import flutter from '../../src/assets/flutter.png';
 import java from '../../src/assets/java.png';
+import salaryfinance from '../../src/assets/SalaryFinance.png';
+import optal from '../../src/assets/Optal.png';
+import fdm from '../../src/assets/FDM.png';
+import lme from '../../src/assets/LME.jpg';
 
 export {
   csharp,
@@ -23,5 +27,9 @@ export {
   python,
   cpp,
   flutter,
-  java
+  java,
+  salaryfinance,
+  optal,
+  fdm,
+  lme
 };

@@ -2,7 +2,8 @@
 import React from 'react';
 import { 
   Skill,
-  Introduction
+  Introduction,
+  Experience
 } from './components';
 import { 
   Navbar
@@ -12,9 +13,9 @@ import './App.css';  // Add custom styling if necessary
 function App() {
   return (
     <div className="App">
-        <Navbar/>
-        <Introduction />
-
+      <Navbar/>
+      <Introduction />
+      <Experience/>
       <Skill />
     </div>
   );

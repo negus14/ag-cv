@@ -5,14 +5,14 @@
 
     display: flex;
 
-    padding: 2rem 6rem;
+    padding: 2rem 4rem;
   }
     
   .introduction-text {
     color: #fff;
     font-family: var(--font-family);
     font-weight: 500;
-    font-size: 18px;
+    font-size: 36px;
     line-height: 25px;
     margin: 2 5rem;
     cursor: pointer;

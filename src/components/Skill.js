@@ -1,6 +1,7 @@
 import React from 'react';
 import { csharp, mssql, mysql, aws, vue, javascript, nodejs, react, python, cpp, flutter, java } from './import';
 import './Skill.css';
+import { SiCsharp, SiCplusplus, SiJavascript, SiPython } from 'react-icons/si';
 
 const Skill = () => {
   return (
@@ -8,7 +9,14 @@ const Skill = () => {
       
       {/* Commercial XP Section */}
       <h2>Commercial XP</h2>
+      <div className="skill-container">
+        <SiCsharp className="icon" /> 
+        <SiCplusplus className="icon" />
+        <SiJavascript className="icon" />
+        <SiPython className="icon" />
+      </div>
       <div className="skill-row">
+
         <div className="skill-item"><img src={csharp} alt="C# .NET" /></div>
         <div className="skill-item"><img src={mssql} alt="MSSQL" /></div>
         <div className="skill-item"><img src={mysql} alt="MySQL" /></div>
