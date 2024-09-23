@@ -35,6 +35,18 @@ a {
   }
 }
 
+@media (max-width: 768px) {
+  .navbar {
+      flex-direction: column; /* Stack links vertically */
+      padding: 1rem;         /* Reduce padding */
+      align-items: flex-start; /* Align items to the start */
+  }
+
+  .navbar a {
+      margin: 0.5rem 0;      /* Space links vertically */
+      font-size: 16px;       /* Slightly reduce font size */
+  }
+}
 @media screen and (max-width: 550){
   .section__padding {
     padding: 4rem 2rem;
