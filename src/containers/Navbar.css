@@ -13,16 +13,14 @@
     padding: 2rem 6rem;
 }
 
-/* Media Query for Small Screens */
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column; /* Stack links vertically */
-        padding: 1rem;         /* Reduce padding */
-        align-items: flex-start; /* Align items to the start */
-    }
+.navbar a
+{
+    margin: 0 1rem;
+    text-decoration: none;
+    transition: transform 0.2s;
+}
 
-    .navbar a {
-        margin: 0.5rem 0;      /* Space links vertically */
-        font-size: 16px;       /* Slightly reduce font size */
-    }
+.navbar a :hover
+{
+    transform: scale(1.2); /* Slightly enlarge the icon on hover */
 }
