@@ -1,0 +1,19 @@
+.introduction-container {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center;     /* Center content vertically */
+
+    display: flex;
+
+    padding: 2rem 6rem;
+  }
+    
+  .introduction-text {
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 2 5rem;
+    cursor: pointer;
+  }
