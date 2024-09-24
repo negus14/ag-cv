@@ -8,10 +8,8 @@ const Experience = () => {
     <div>
       <h1>Employment History</h1>
       <div className="experience-row">
-            <div>          
-            </div>
             <a href="https://www.salaryfinance.com/uk/" target="_blank" rel="noopener noreferrer">
-              <img src={sf} alt="salaryfinance"/>
+              <img src={sf} alt="sf"/>
             </a>
             <a href="https://www.wexinc.com/industries/travel/" target="_blank" rel="noopener noreferrer">
               <img src={optal} alt="optal"/>
