@@ -1,6 +1,6 @@
 // src/components/Experience.js
 import React from 'react';
-import { salaryfinance, optal, fdm, lme } from '../import';
+import { sf, optal, fdm, lme } from '../import';
 import  './Experience.css';
 
 const Experience = () => {
@@ -11,7 +11,7 @@ const Experience = () => {
             <div>          
             </div>
             <a href="https://www.salaryfinance.com/uk/" target="_blank" rel="noopener noreferrer">
-              <img src={salaryfinance} alt="salaryfinance"/>
+              <img src={sf} alt="salaryfinance"/>
             </a>
             <a href="https://www.wexinc.com/industries/travel/" target="_blank" rel="noopener noreferrer">
               <img src={optal} alt="optal"/>

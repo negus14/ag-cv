@@ -11,7 +11,7 @@ import python from '../../src/assets/python.png';
 import cpp from '../../src/assets/cpp.png';
 import flutter from '../../src/assets/flutter.png';
 import java from '../../src/assets/java.png';
-import salaryfinance from '../../src/assets/salaryfinance.png';
+import sf from '../../src/assets/sf.png';
 import optal from '../../src/assets/optal.png';
 import fdm from '../../src/assets/fdm.png';
 import lme from '../../src/assets/lme.jpg';
@@ -30,7 +30,7 @@ export {
   cpp,
   flutter,
   java,
-  salaryfinance,
+  sf,
   optal,
   fdm,
   lme
