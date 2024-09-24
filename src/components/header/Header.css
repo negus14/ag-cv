@@ -1,0 +1,9 @@
+.header, h1, h2 {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center;     /* Center content vertically */
+    color: var(--color-text);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 36px;
+    transition: all 0.3s ease-in-out;}

@@ -1,7 +1,4 @@
 // components/index.js
-export { default as Header } from './Header';
-export { default as Introduction } from './Introduction';
-export { default as Education } from './Education';
-export { default as Experience } from './Experience';
-export { default as Contact } from './Contact';
-export { default as Skill } from './Skill';
+export { default as Header } from './header/Header.js';
+export { default as Experience } from './experience/Experience.js';
+export { default as Skill } from './skill/Skill.js';

@@ -1,8 +1,7 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    color: #fff;
+    color: var(--color-text);
     margin: 2rem 2rem;
     cursor: pointer;
     padding: 2rem 6rem;
@@ -10,7 +9,7 @@
 
 .navbar a
 {
-    margin: 0 1rem;
+    /* margin: 0 1rem; */
     text-decoration: none;
     transition: transform 0.2s;
 }
