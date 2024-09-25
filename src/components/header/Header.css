@@ -6,5 +6,6 @@
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 28px;
+    margin-top: 1rem;
     transition: all 0.3s ease-in-out;
 }

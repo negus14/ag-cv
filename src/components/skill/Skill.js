@@ -1,5 +1,5 @@
 import React from 'react';
-import { csharp, dotnet, mssql, mysql, aws, vue, javascript, nodejs, react, python, cpp, flutter, java } from '../import';
+import { csharp, dotnet, mssql, mysql, aws, vue, javascript, nodejs, docker, react, python, cpp, flutter, java } from '../import';
 import './Skill.css';
 
 const Skill = () => {
@@ -8,7 +8,7 @@ const Skill = () => {
       
       {/* Commercial XP Section */}
       <div>
-        <h2>Commercial Language Experience</h2>
+        <h2>Commercial Experience</h2>
       </div>
       <div className="skill-row">
         <div className="skill-item"><img src={csharp} alt="C#" /></div>
@@ -19,9 +19,10 @@ const Skill = () => {
         <div className="skill-item"><img src={vue} alt="Vue.js" /></div>
         <div className="skill-item"><img src={javascript} alt="JavaScript" /></div>
         <div className="skill-item"><img src={nodejs} alt="Node.js" /></div>
+        <div className="skill-item"><img src={docker} alt="Docker" /></div>
       </div>
       <div>
-        <h2>Recreational Language Experience</h2>
+        <h2>Recreational Experience</h2>
       </div>
       {/* Recreational XP Section */}
       <div className="skill-row">
