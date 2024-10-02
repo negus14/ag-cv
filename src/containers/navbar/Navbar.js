@@ -9,7 +9,7 @@ const Navbar = () => {
         <a href="https://linkedin.com/in/abel-ghebrezadik" target="_blank" rel="noopener noreferrer">
           <FaLinkedin size={60} color="#0077b5" title="LinkedIn" />
         </a>
-        <a href="/assets/Abel Ghebrezadik.pdf" target="_blank" rel="noopener noreferrer">
+        <a href="/assets/abel_ghebrezadik_cv.pdf" target="_blank" rel="noopener noreferrer">
           <FaFileDownload size={60} color="#4CAF50" title="Download CV" />
         </a>
         <a href="https://github.com/negus14" target="_blank" rel="noopener noreferrer">
