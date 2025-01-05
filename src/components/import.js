@@ -17,6 +17,8 @@ import sf from '../../src/assets/sf.png';
 import optal from '../../src/assets/optal.png';
 import fdm from '../../src/assets/fdm.png';
 import lme from '../../src/assets/lme.jpg';
+import go from '../../src/assets/go.png';
+import mongodb from '../../src/assets/mongodb.png';
 
 export {
   csharp,
@@ -37,5 +39,7 @@ export {
   sf,
   optal,
   fdm,
-  lme
+  lme,
+  go,
+  mongodb
 };
